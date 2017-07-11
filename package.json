@@ -1,0 +1,19 @@
+{
+  "name": "modal-loader",
+  "version": "1.0.0",
+  "description": "这不是modal的具体实现(此处依赖bootstrap-modal)    \r 是复用modal的写法上的探讨,vue版    \r 多数模态框可做参照使用,复用极性强,且使用组件/指令的方式并不实用(改变组件or指令在视图中的位置对modal并没有影响)    \r 此处使用@(Decorator)的方式定义Model    \r Decorator需要Class,不喜欢这种风格可以自行改为工厂",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Glimis/vue-modal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Glimis/vue-modal/issues"
+  },
+  "homepage": "https://github.com/Glimis/vue-modal#readme"
+}
